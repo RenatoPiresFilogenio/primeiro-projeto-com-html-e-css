@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   
+
+}
+    
+h1, h2,span{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #238bc7;
+}
+
+#header-content > * {
+    max-width: 600px;}
+
+#course-content > * {
+    max-width: 900px;
+}
+
+#professional-challenges > * {
+    max-width: 900px;
+
+}
+
+body {
+    
+    justify-content: center; 
+    align-items: center; 
+    margin: 50px 180px 0px 180px ; 
+    background-color: black;
+}
+
+
+#header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: solid 1px  #238bc7 ;
+    background-color: black;
+}
+
+.logo-content > *{
+        padding: 20px;
+}
+#main-content{
+    border-bottom: solid 1px  #238bc7 ;
+}
+
+#course-content > *{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+
+.modules-list > * {
+       box-shadow: #238bc7 0px 0px 0px 1px;
+       
+        padding: 10px;
+        margin: 10px;
+        background-color: #202c30;
+        color: white;
+        border-radius: 10px;
+        width: 45%;
+        text-align: center;
+        
+        
+}
+
+#main-content {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    background-color: black;
+    
+}
+
+#professional-challenges {
+    margin-top: 50px;
+    padding: 20px;
+    border-top: solid 1px  #238bc7;
+}
+
+#professional-challenges > p{
+    color: white;
+
+
+}    
+
+#footer-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    padding: 20px; 
+     
+    margin-bottom: solid 1px #238bc7;
+    margin-top: 2px;
+}
+
+.dio-logo {
+    max-width: 350px; 
+    height: auto; 
+    margin-bottom: 10px; }
+
+footer p {
+    margin: 0;
+    color: white; }
+
+footer a {
+    color: blue; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+button {
+    background-color: transparent; 
+    border: none; 
+    color: #238bc7; 
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    cursor: pointer;}
+
+button:hover {
+        background-color: rgba(0, 123, 255, 0.1); 
+        border-radius: 10px;
+    }
+
+.imgprof{
+    margin:50px 0px 50px 0px ;
+
+}
